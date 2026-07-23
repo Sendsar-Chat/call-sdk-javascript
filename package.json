@@ -1,0 +1,50 @@
+{
+  "name": "@sendsar/call-sdk-javascript",
+  "version": "0.2.0",
+  "description": "Voice and video call SDK for JavaScript/Web — wraps LiveKit media on top of @sendsar/chat-sdk-javascript",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "sendsar",
+    "calls",
+    "voice",
+    "video",
+    "webrtc",
+    "livekit",
+    "sdk",
+    "javascript",
+    "web"
+  ],
+  "dependencies": {
+    "@sendsar/protocol": "^0.2.0",
+    "livekit-client": "^2.11.0"
+  },
+  "peerDependencies": {
+    "@sendsar/chat-sdk-javascript": ">=0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sendsar-Chat/call-sdk-javascript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sendsar-Chat/call-sdk-javascript/issues"
+  },
+  "homepage": "https://github.com/Sendsar-Chat/call-sdk-javascript#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
